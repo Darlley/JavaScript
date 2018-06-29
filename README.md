@@ -1,6 +1,6 @@
 # starting-JavaScript
 
-Resolução de exercícios em JavaScript dos cursos:
+Resolução de exercícios em JavaScript de:
 
 [CURSO] JavaScript Ninja - https://www.udemy.com/curso-javascript-ninja/
 
