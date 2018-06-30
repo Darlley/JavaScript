@@ -36,7 +36,7 @@ var carro = {
   modelo: 'UNO',
   placa: 'HTH - 4010',
   ano: 2014,
-  cor: 'Vermelho',
+  cor: 'Branco',
   quantasPortas: 4,
   assentos: 5,
   quantidadePessoas: 0
@@ -61,7 +61,7 @@ function obterCor(){
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
 function obterModelo(){
-  retun carro.modelo;
+  return carro.modelo;
 };
 
 /*
@@ -77,7 +77,7 @@ Crie um método chamado `obterMarcaModelo`, que retorne:
 Para retornar os valores de marca e modelo, utilize os métodos criados.
 */
 function obterMarcaModelo(){
-  return "Esse carro é um " + carro.marca + carro.modelo;
+  return "Esse carro é um " + carro.marca + " " + carro.modelo;
 };
 
 /*
@@ -113,34 +113,32 @@ retornar algum valor.
 
 Qual a cor atual do carro?
 */
-?
+obterCor() //"Branco"
 
 // Mude a cor do carro para vermelho.
-?
+mudarCor('Vermelho')
 
 // E agora, qual a cor do carro?
-?
+obterCor(); //"Vermelho"
 
 // Mude a cor do carro para verde musgo.
-?
+mudarCor('verde musgo')
 
 // E agora, qual a cor do carro?
-?
+obterCor(); //"verde musgo"
 
 // Qual a marca e modelo do carro?
-?
+obterMarcaModelo();
 
 // Adicione 2 pessoas no carro.
-?
+adicionarPessoas(2);
 
 // Adicione mais 4 pessoas no carro.
-?
+adicionarPessoas(4);
 
 // Faça o carro encher.
-?
 
 // Tire 4 pessoas do carro.
-?
 
 // Adicione 10 pessoas no carro.
 ?
