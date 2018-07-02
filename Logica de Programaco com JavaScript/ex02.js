@@ -1,23 +1,19 @@
-//pedir para o usuario digitar um numero
-//converter em numero inteiro
-var num1 = parseInt(prompt('Digite um número: '));
-                                    
-//pedir para o usuario digitar outro numero
-//converter em numero inteiro
-var num2 = parseInt(prompt('Digite outro número: '));
-                        
-//mostrar a subtração concatenando com o texto "a subtração é: ..."
-var subtracao = num1 + num2;
-alert('A subtração é '+ subtracao);
-                        
-//mostrar a multiplicação concatenando com o texto "a multiplicação é: ..."
-var multiplicacao = num1 * num2;
-alert('A multiplicação é: '+ multiplicacao);
+//pedir para o usuário digitar um numero
+//converter para número inteiro
+var n1 = parseInt(prompt("Número 1: "));
 
-//mostrar a divisão concatenando com o texto "a divisão é: ..."
-var divisao = num1 / num2;
-alert('A divisão é: '+ divisao);
+//pedir para o usuário digitar outro numero
+//converter para número inteiro
+var n2 = parseInt(prompt("Número 2: "));
 
-//mostrar a soma concatenando com o texto "a soma é: ..."
-var soma = num1 + num2;
-alert('A soma dos números é '+ soma);
+/*
+Mostrar num alert o seguinte texto 
+O resto da divisão de "(n1) por (n2) é: (resultado)
+*/
+alert("O resto da divisão de " + n1 + " por " + n2 + " é: " + (n1%n2));
+
+/*
+Mostrar num alert o seguinte texto 
+O resultado de (n1) elevado à (n2) é: (resultado)
+*/
+alert("O resultado de " + n1 + " elevado à " + n2 + " é: " + (n1**n2));
