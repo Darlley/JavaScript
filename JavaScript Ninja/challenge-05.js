@@ -2,36 +2,39 @@
 Crie uma variável qualquer, que receba um array com alguns valores aleatórios
 - ao menos 5 - (fica por sua conta os valores do array).
 */
-// ?
+var qualquer = [0, '1', 2.5, {valores: 3, '4'}, [5, '6']];
 
 /*
 Crie uma função que receba um array como parâmetro, e retorne esse array.
 */
-// ?
+function recebe(umArray){
+	return umArray;
+};
 
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
-// ?
-
+recebe(qualquer)[2];
 /*
 Crie uma função que receba dois parâmetros: o primeiro, um array de valores; e o
 segundo, um número. A função deve retornar o valor de um índice do array que foi passado
 no primeiro parâmetro. O índice usado para retornar o valor, deve ser o número passado no
 segundo parâmetro.
 */
-// ?
+function outro(umArray, x){
+    return umArray[x]
+};
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
-// ?
+var tipos = [0, '1', 2.2, {}, true];
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-// ?
+recebe(tipos); //(5) [0, "1", 2.2, {…}, true]
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
@@ -47,7 +50,29 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
-// ?
+function boook(nomeLivro){
+	var catalogo = {
+		"O homem perante o infinito" = {
+			quantidadePaginas: 280,
+    		autor: 'Mario Ferreira dos Santos',
+    		editora: 'Desconhecido'
+		},"A cidade de Deus" = {
+			quantidadePaginas: 530,
+    		autor: 'Santo Agostinho',
+    		editora: 'Vozes de Bolso'
+		}, "Proslogium" = {
+			quantidadePaginas: 50,
+    		autor: 'Santo Anselmo',
+    		editora: 'Desconhecido'
+		}
+	};
+
+    if(nomeLivro !== undefined){
+        return nomeLivro;
+    }else{
+		return catalogo;
+    };
+};
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
