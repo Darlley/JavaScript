@@ -1,5 +1,7 @@
 # starting-JavaScript
 
+![JS](https://dkrn4sk0rn31v.cloudfront.net/2018/03/01133925/javascript.png)
+
 Resolução de exercícios em JavaScript de:
 
 [CURSO] JavaScript Ninja - https://www.udemy.com/curso-javascript-ninja/
