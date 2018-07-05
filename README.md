@@ -1,6 +1,6 @@
 # starting-JavaScript
 
-![JS](https://dkrn4sk0rn31v.cloudfront.net/2018/03/01133925/javascript.png)
+![JS](https://lh3.googleusercontent.com/smaaqv04KysBRbBzsGQn0RYZBi9LAQxfncbc_BiH2cg39yxgZplKrjA4syoshc1mCPAAIlgoVQuF9lA8lJhBfLgWH7jxAKd7NpQGunlvhFxAd_oQEHU=w1175)
 
 Resolução de exercícios em JavaScript de:
 
