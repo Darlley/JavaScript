@@ -10,7 +10,7 @@ Resolução de exercícios em JavaScript de:
 
 CERTIFICAÇÃO
 -
-![Lógica JavaScript](https://lh3.googleusercontent.com/smaaqv04KysBRbBzsGQn0RYZBi9LAQxfncbc_BiH2cg39yxgZplKrjA4syoshc1mCPAAIlgoVQuF9lA8lJhBfLgWH7jxAKd7NpQGunlvhFxAd_oQEHU=w1175)
+![Lógica JavaScript](https://lh3.googleusercontent.com/n1WcudPtxBCV01EE9G7nLBLjkMYESojD3kSLpvP8rxZdvzzNoqeuheZV0iLERJINmOIR0tyC2NSMV5HyDd4YYBusurvIi-L0mj2ileqQEn12B09Zp5c=w1175)
 
 LIVROS -lendo
 -
