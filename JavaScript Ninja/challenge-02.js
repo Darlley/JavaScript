@@ -4,10 +4,10 @@ function soma(x, y){
 };
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
-var resultado = soma(5,5);
+var resultado = soma(5,5) + 5;
 
 // Qual o valor atualizado dessa variável?
-//10
+resultado  //15
 
 // Declare uma nova variável, sem valor.
 var valor;
@@ -17,16 +17,16 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function adicionar(x){
-	valor = x;
-	return 'O valor da variável agora é ' + x;
+function adicionar(){
+	valor = 'VALOR ADICIONADO PELA FUNÇÃO';
+	return 'O valor da variável agora é ' + valor;
 };
 
 // Invoque a função criada acima.
-adicionar(50);
+adicionar();
 
 // Qual o retorno da função? (Use comentários de bloco).
-//"O valor da variável agora é 50"
+//"VALOR ADICIONADO PELA FUNÇÃO"
 
 /*
 Crie uma função com as seguintes características:
@@ -64,7 +64,7 @@ Crie uma função com as seguintes características:
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
 function possibilidades(x, y, z){
-	if( x !== undefined && y===undefined & z===undefined ){
+	if( x !== undefined && y===undefined && z===undefined ){
 	   return x;
 	}else if( x !== undefined && y!==undefined && z===undefined ){
 		return x+y;
