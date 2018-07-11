@@ -54,9 +54,25 @@ vai efetuar. Será uma string com os valores `+`, `-`, `*`, `/` ou `%`;
 */
 function calculator(operador){
   if(operador === "+" || operador === "-" || operador === "*" || operador === "/" || operador === "%"){
-    function(value1, value2){
-      var result = value1 + operador + value2;
-      return "Resultado da operação: " + value1 + operador + value2 + " = " + result + "."
+    return function(value1, value2){ 
+      switch(operador){
+        case "+":
+          result = (value1 + value2);
+		  break;
+        case "-":
+          result = (value1 - value2);
+		  break;
+        case "*":
+          result = (value1 * value2);
+		  break;
+        case "/":
+          result = (value1 / value2);
+		  break;
+        case "%":
+          result = (value1 % value2);
+		  break;
+      }
+      return "Resultado da operação: " + value1 + " " + operador + " " + value2 + " = " + result + ".";
     }
   }else{
     return "Operação inválida.";
@@ -67,22 +83,28 @@ function calculator(operador){
 Declare uma variável chamada `sum`, que receberá a função acima, passando como
 parâmetro o operador de soma.
 */
-// ?
+var sum = calculator("+")
 
 /*
 Agora `sum` é uma função. Mostre no console a soma de dois números, usando ela.
 */
-// ?
+console.log( sum(3, 2)); //"Resultado da operação: 3 + 2 = 5."
 
 /*
 Agora, declare algumas variáveis com os nomes `subtraction`, `multiplication`,
 `division` e `mod`, e atribua a elas a função `calculator`, passando o operador
 correto por parâmetro para cada uma delas.
 */
-// ?
+var subtraction = calculator("-");
+var multiplication = calculator("*");
+var division = calculator("/");
+var mod = calculator("%");
 
 /*
 Faça uma operação com cada uma das funções criadas acima, mostrando o resultado
 no console.
 */
-// ?
+console.log( subtraction(2,2) ); //"Resultado da operação: 2 - 2 = 0."
+console.log( multiplication(5,5) ); //"Resultado da operação: 5 * 5 = 25."
+console.log( division(100,2) ); //"Resultado da operação: 100 / 2 = 50."
+console.log( mod(200,2) ); //"Resultado da operação: 200 % 2 = 0."
