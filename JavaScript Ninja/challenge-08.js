@@ -12,7 +12,9 @@ Invoque a função criada acima, passando dois números que serão somados, e mo
 o resultado no console, com a frase:
 "A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
 */
-console.log("A soma de 5 e 5 é igual a " + sum(5,5) + ".")
+var value1 = 10;
+var value2 = 20;
+console.log("A soma de " + value1 + " e " + value2 + " é igual a " + sum(value1,value2) + ".")
 
 /*
 Mostre no console o nome da função criada acima, com a frase:
@@ -25,7 +27,7 @@ Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
 function showName(){
-  return showName.name;
+  return 'Darlley';
 }
 
 /*
@@ -53,30 +55,30 @@ vai efetuar. Será uma string com os valores `+`, `-`, `*`, `/` ou `%`;
   "Operação inválida."
 */
 function calculator(operador){
-  if(operador === "+" || operador === "-" || operador === "*" || operador === "/" || operador === "%"){
-    return function(value1, value2){ 
-      switch(operador){
-        case "+":
-          result = (value1 + value2);
-		  break;
-        case "-":
-          result = (value1 - value2);
-		  break;
-        case "*":
-          result = (value1 * value2);
-		  break;
-        case "/":
-          result = (value1 / value2);
-		  break;
-        case "%":
-          result = (value1 % value2);
-		  break;
-      }
-      return "Resultado da operação: " + value1 + " " + operador + " " + value2 + " = " + result + ".";
-    }
-  }else{
-    return "Operação inválida.";
-  }
+	return function(value1, value2){
+		var result;
+
+		switch(operador){
+			case "+":
+				result = value1 + value2;
+				break;
+			case "-":
+				result = value1 - value2;
+				break;
+			case "*":
+				result = value1 * value2;
+				break;
+			case "/":
+				result = value1 / value2;
+				break;
+			case "%":
+				result = value1 % value2;
+				break;
+            default:
+				return "Operação inválida!";
+		}	
+		return "Resultado da operação: " + value1 + " " + operador + " " + value2 + " = " + result + ".";
+	};
 }
 
 /*
