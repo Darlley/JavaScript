@@ -17,12 +17,15 @@
         'age': 20
     }
     console.log( 'Propriedades de "person":' );
+    for(var prop in person){
+        console.log(prop);
+    }
 
     /*
     Mostre no console, em um array, todas as propriedades do objeto acima.
     Não use nenhuma estrutura de repetição, nem crie o array manualmente.
     */
-    // ?
+    console.log(Object.keys(person));
 
     /*
     Crie um array vazio chamado `books`.
@@ -35,41 +38,52 @@
     `name`: String
     `pages`: Number
     */
-    // ?
+    books.push(
+{
+	name: 'livro1',
+	pages: 600}, 
+{
+    name: 'livro2',
+    pages: 650},
+{
+    name: 'livro3',
+    pages: 470});
     console.log( '\nLista de livros:' );
 
     /*
     Mostre no console todos os livros.
     */
-    // ?
+    console.log(books[0]);
+    console.log(books[1]);
+    console.log(books[2]);
 
     console.log( '\nLivro que está sendo removido:' );
     /*
     Remova o último livro, e mostre-o no console.
     */
-    // ?
+    books.pop();
 
     console.log( '\nAgora sobraram somente os livros:' );
     /*
     Mostre no console os livros restantes.
     */
-    // ?
+    console.log(books);
 
     /*
     Converta os objetos que ficaram em `books` para strings.
     */
-    // ?
+    var objectNotation = JSON.stringify(books);
     console.log( '\nLivros em formato string:' );
 
     /*
     Mostre os livros nesse formato no console:
     */
-    // ?
+    console.log(objectNotation);
 
     /*
     Converta os livros novamente para objeto.
     */
-    // ?
+    objectNotation = JSON.parse(books);
     console.log( '\nAgora os livros são objetos novamente:' );
 
     /*
