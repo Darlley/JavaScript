@@ -22,7 +22,12 @@
     adicionados à idade original (age). Esse método deverá retornar o objeto
     que será instanciado.
   */
-  // ?
+  
+  function Person(name, lastName, age){
+    'name': name,
+    'lastName': lastName,
+    'age': age
+  }
 
   /*
   Crie 3 novos objetos usando o construtor acima. Os objetos serão novas
