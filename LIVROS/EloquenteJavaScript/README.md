@@ -1,1 +1,0 @@
-![Eloquente](https://cache.skoob.com.br/local/images//U9MucrX1K6Njyna1k_abU-CmRfg=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/200449/ELOQUENT_JAVASCRIPT_1529941685200449SK1529941686B.jpg) 
