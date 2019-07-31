@@ -8,7 +8,7 @@ Resolução de exercícios em JavaScript de:
 
 CERTIFICAÇÃO
 -
-![Udemy - Lógica JavaScript](https://4.bp.blogspot.com/-TIRjC5LKwzw/Wz_eHTP42BI/AAAAAAAABKk/aFS20zALc-ACTGPZBhv2_qqyvHYVRW3kwCEwYBhgL/s640/certjs.jpg)
+![Udemy](https://4.bp.blogspot.com/-TIRjC5LKwzw/Wz_eHTP42BI/AAAAAAAABKk/aFS20zALc-ACTGPZBhv2_qqyvHYVRW3kwCEwYBhgL/s640/certjs.jpg)
 
 [LIVROS](https://github.com/Darlley/ExerciciosLivros) -lendo
 -
