@@ -1,0 +1,2 @@
+console.log("SAÍDA DE DADOS PELO CONSOLE");
+alert("SAÍDA DE DADOS PELO CONSOLE");
