@@ -6,6 +6,9 @@ Resolução de exercícios em JavaScript de:
 
 [CURSO] [Lógica de Programação com JavaScript](https://www.udemy.com/logica-de-programacao-com-javascript-iniciando-no-frontend/)
 
+[CURSO] [JavaScript Completo ES6
+](https://www.origamid.com/curso/javascript-completo-es6/)
+
 CERTIFICAÇÃO
 -
 ![Udemy](https://udemy-certificate.s3.amazonaws.com/image/UC-E0S674B2.jpg)
