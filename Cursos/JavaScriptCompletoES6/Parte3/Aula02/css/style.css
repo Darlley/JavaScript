@@ -138,6 +138,9 @@ body {
   margin-bottom: .5rem;
   color: #E54;
 }
+.faq-lista dt:hover {
+  cursor: pointer;
+}
 
 .faq-lista dt::before {
   content: '';
@@ -217,10 +220,10 @@ body {
 }
 
 /* JAVASCRIPT */
-.js .js-tabcontent section{
+.js .js-tabcontent section, .js-accordion dd{
   display: none;
 }
-.js .js-tabcontent section.ativo{
+.js .js-tabcontent section.ativo, .js-accordion dd.ativo{
   display: block !important;
   transform: translate3d(-30px, 0, 0);
   animation: show .5s forwards;
@@ -235,4 +238,24 @@ body {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
+}
+
+.js-accordion dt::after{
+  content: "⥃";
+  margin-left: 10px;
+}
+.js-accordion dt.ativo::after{
+  content: "⇾";
+  margin-left: 10px;
+}
+
+.js .js-scroll{
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .3s;
+}
+.js .js-scroll.ativo{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: .3s;
 }
