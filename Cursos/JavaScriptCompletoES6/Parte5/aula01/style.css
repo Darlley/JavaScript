@@ -18,6 +18,7 @@ ul {
 html{
   scroll-behavior: smooth;
 }
+
 body {
   background: #faf6ed;
   color: #222;
@@ -220,19 +221,19 @@ body {
 }
 
 /* JAVASCRIPT */
-.js .js-tabcontent section, .js-accordion dd{
+.js [data-tab="content"] section, [data-anime="accordion"] dd{
   display: none;
 }
-.js .js-tabcontent section.ativo{
+.js [data-tab="content"] section.ativo{
   display: block !important;
 }
-.js .js-tabcontent section.ativo.show-right{
+.js [data-tab="content"] section.ativo.show-right{
   animation: show-right .5s forwards;
 }
-.js .js-tabcontent section.ativo.show-down{
+.js [data-tab="content"] section.ativo.show-down{
   animation: show-down .5s forwards;
 }
-.js .js-accordion dd.ativo{
+.js [data-anime="accordion"] dd.ativo{
   display: block;
   animation: show-down .5s forwards;
 }
@@ -258,21 +259,21 @@ body {
   }
 }
 
-.js-accordion dt::after{
+[data-anime="accordion"] dt::after{
   content: "⥃";
   margin-left: 10px;
 }
-.js-accordion dt.ativo::after{
+[data-anime="accordion"] dt.ativo::after{
   content: "⇾";
   margin-left: 10px;
 }
 
-.js .js-scroll{
+.js [data-anime="scroll"]{
   opacity: 0;
   transform: translate3d(-30px, 0, 0);
   transition: .3s;
 }
-.js .js-scroll.ativo{
+.js [data-anime="scroll"].ativo{
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: .3s;
