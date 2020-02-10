@@ -1,9 +1,26 @@
+//  EXERCÍCIOS
+
+// Adicione um atributo data-anime="show-down" e
+// data-anime="show-right" a todos as section's
+// com descricão dos animais.
+
+// Utilizando estes atributos, adicione a classe
+// show-down ou show-right a sua respectiva section
+// assim que a mesma aparecer na tela (animacao tab)
+// 
+
+// No CSS faça com que show-down anime de cima para baixo
+// e show-right continue com a mesma animação da esquerda
+// para a direita
+
+// Substitua todas as classes js- por data atributes.
+
 const classAtivo = "ativo";
 
 // AULA 9
 function initTabNav(){
-    const tabMenu = document.querySelectorAll('.js-tabmenu li');
-    const tabContent = document.querySelectorAll('.js-tabcontent section');
+    const tabMenu = document.querySelectorAll('[data-tab="menu"] li');
+    const tabContent = document.querySelectorAll('[data-tab="content"] section');
 
     if(tabMenu.length && tabContent.length){
         tabContent[0].classList.add(classAtivo);
@@ -27,7 +44,7 @@ initTabNav();
 
 // AULA 10
 function initAccordion(){
-    const listaAccordion = document.querySelectorAll('.js-accordion dt');
+    const listaAccordion = document.querySelectorAll('[data-anime="accordion"] dt');
 
     if(listaAccordion.length){
 
@@ -47,7 +64,7 @@ initAccordion();
 
 // AULA 11
 function initScroll(){
-    const links_internos = document.querySelectorAll('.js-menu a[href^="#"]');
+    const links_internos = document.querySelectorAll('[data-menu="suave"] a[href^="#"]');
     if(links_internos.length){
         function irSessao(event){
             event.preventDefaut;
@@ -75,7 +92,7 @@ initScroll();
 
 // AULA 12
 function initAnimaScroll(){
-    const sections = document.querySelectorAll('.js-scroll');
+    const sections = document.querySelectorAll('[data-anime="scroll"]');
     if(sections.length){
         const wd_metade = window.innerHeight*0.6;
         function animarScroll(){
@@ -92,18 +109,3 @@ function initAnimaScroll(){
     }
 }
 initAnimaScroll();
-
-//  EXERCÍCIOS
-// Adicione um atributo data-anime="show-down" e
-// data-anime="show-right" a todos as section's
-// com descricão dos animais.
-
-// Utilizando estes atributos, adicione a classe
-// show-down ou show-right a sua respectiva section
-// assim que a mesma aparecer na tela (animacao tab)
-
-// No CSS faça com que show-down anime de cima para baixo
-// e show-right continue com a mesma animação da esquerda
-// para a direita
-
-// Substitua todas as classes js- por data atributes.
