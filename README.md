@@ -1,13 +1,14 @@
 # starting-JavaScript
 
+
 Resolução de exercícios em JavaScript de:
+
+[Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) e [Site Animais Fantasticos](https://darlley.github.io/JavaScript/Cursos/JavaScriptCompletoES6/Parte5/aula02/) - [JavaScript Completo ES6](https://www.origamid.com/curso/javascript-completo-es6/)
 
 [Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScript%20Ninja) - [Curso JavaScript Ninja](https://www.udemy.com/curso-javascript-ninja/)
 
 [Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/Logica%20de%20Programaco%20com%20JavaScript) - [Lógica de Programação com JavaScript](https://www.udemy.com/logica-de-programacao-com-javascript-iniciando-no-frontend/)
 
-[Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) - [JavaScript Completo ES6
-](https://www.origamid.com/curso/javascript-completo-es6/)
 
 CERTIFICAÇÃO
 -
