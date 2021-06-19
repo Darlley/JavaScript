@@ -1,0 +1,1 @@
+![Curso de JavaScript e EcmaScript do Curso em Vídeo](https://i.ytimg.com/vi/BXqUH86F-kA/maxresdefault.jpg)

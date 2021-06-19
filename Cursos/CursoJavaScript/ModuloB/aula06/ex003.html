@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso em Vídeo</title>
+    <style>
+        body{ background-color: #6969e1; font: Normal 20pt Arial; }
+        h1{ color: #fffb00; }
+        p{ color: #fff; }
+        /*COMENTÁRIO EM CSS*/
+    </style>
+</head>
+<body>
+   <h1>Olá, mundo!</h1>
+   <p>Já me livrei da maldição.</p>
+
+   <!-- COMENTÁRIO EM HTML -->
+
+   <script>
+    /*var numero_01 = window.prompt('Digite um número: ')
+      var numero_02 = window.prompt('Digite outro número: ')
+      var soma = numero_01 + numero_02                      
+      window.alert('A soma de ' + numero_01 + ' + ' + numero_02 + ' é ' + soma) 
+      
+      JAVASCRIPT É <CASE SENSITIVE>
+      window.prompt() recebe duas strings portanto a variavel soma esta na verdade concatenando duas strings, ex: '10+10' = '1010' 
+      converter strings em number com
+
+        Number.parseInt(para números inteiros)
+        Number.parseFloat(Para números reais)
+        Number(para inteiros ou reais)
+
+      primeira alternativa > Number(window.prompt('Digite um número: '))
+      segunda alternativa > var s = Number(n1) + Number(n2) 
+
+    */
+
+      var numero_01 = Number(window.prompt('Digite um número: '))
+      var numero_02 = Number(window.prompt('Digite outro número: '))
+      var soma = numero_01 + numero_02           
+      //window.alert('A soma de ' + numero_01 + ' + ' + numero_02 + ' = ' + soma)
+
+    /*para converter de number para string 
+        
+        String()
+        n.toString()
+        
+    */
+      soma = String(soma)
+      console.log(typeof soma)
+
+    /*window.alert('A soma de ' + numero_01 + ' + ' + numero_02 + ' = ' + soma)
+      Outra forma melhor de concatenar são as template strings (usando acentos graves ou crases ``) e placeholders `${variavel}`
+    */
+
+      window.alert(`A soma de ${numero_01} + ${numero_02} = ${soma}`)
+
+   </script>
+</body>
+</html>

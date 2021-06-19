@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    /*  Funções para strings 
+        soma.length = número de caracteres ou tamanho da string
+        soma.toUpperCase(transformar a string em MAIÚSCULAS)
+        soma.toLowerCase(Transformar a string em minúsculas)
+    */
+
+    var nome = window.prompt('Qual o seu nome?')
+    document.write(`Seja bem vindo ${nome.toUpperCase()}! Seu nome '${nome.toLowerCase()}' tem ${nome.length} caracteres :) `)
+
+    /* Funções para numbers
+       variavel.toFixed(n) um número real fica com n casas depois da virgula, ex: 505.1 > variavel.toFixed(2) = 505.10
+       variavel.replace(x,y) troca x por y, ex: 505.1 > variavel.toFixed(2).replace('.', ',') = 505,10
+       
+       variavel.toLocaleString('pt-br', {               para formatar em moeda real R$
+           style: 'currency',                           não funciona com outras funções antes
+           currency: 'BRL'
+       })
+    */
+    </script>
+</body>
+</html>
