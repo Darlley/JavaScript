@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5 - Primeiros passos com DOM</title>
+
+    <!-- CSS --> <style>
+        body{
+            color: #fafafa;
+            font: normal 12pt Arial;
+            margin: 0;
+            padding: 0;
+        }
+    </style> <!-- FIM DO CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Iniciando estudos com DOM</h1>
+        <p>Aqui vai o resultado</p>
+        <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+        <div name="msg">Clique em mim</div>
+        <div id="msg">Clique em mim</div>
+        <div class="msg">Clique em mim</div>
+    </div>
+
+    <!-- JAVASCRIPT --> <script>
+    /*  D O M - DOCUMENT OBJETC MODE
+    O DOM é uma árvore hierárquica entre pai (parent) e filho (chield)
+    
+    window > location - document - history
+    document > HTML > head - body (chields)
+    head > meta - title ...
+    body > h1 - p's - div's ...
+    p > strong 
+    */
+
+        window.document.body.style.backgroundColor = "#000"
+        window.document.getElementsByClassName("container")[0].style.backgroundColor = "#73b9f7"
+
+        var get_charset = window.document.charset
+        var get_navigatorName = window.navigator.appName
+        window.document.write('<p><strong>INSERÇÃO DE TEXTOS VIA JAVASCRIPT:</strong><br>')
+        window.document.write( `<br>O charset da página é ${get_charset}<br>` )
+        window.document.write( `<br>O novegador atual esta se comportando como ${get_navigatorName}<br>` )
+        window.document.write( `<br>Minha URL atual é ${window.document.URL}<br>` )
+        
+        window.document.body.getElementsByTagName("p")[2].style.backgroundColor = "#73b9f7"
+        window.document.body.getElementsByTagName("p")[2].style.color = "#fff"
+        window.document.body.getElementsByTagName("p")[2].style.fontSize = "10pt"
+        window.document.body.getElementsByTagName("p")[2].style.padding = "1em"
+
+    /*  NAGAÇÃO ENTRE OS ELEMENTOS DA DOM 
+        selecionar por 
+
+        marca (TAG) > getElementsByTagName()
+    */
+        var p1 = window.document.getElementsByTagName('p')
+        var p2 = p1[1].innerHTML.fontcolor('#f70000')
+        window.document.write( `<br>getElementsByTagName('p') + innerHTML.fontcolor('#f70000') </p> ${p2}` )
+
+    //  #ID > getElementsById('')
+        //var texto = window.document.getElementById('msg')
+        var identificador = window.document.getElementById('msg')
+        identificador.style.backgroundColor = '#00b700'
+        identificador.innerText = 'getElementById("msg")'
+
+    //  Nome > getEleemntsByName('')
+        var texto = window.document.getElementsByName('msg')[0]
+
+        texto.style.backgroundColor = 'green'
+        texto.innerText = 'getElementsByName("msg")'
+
+    //  Classe > getElementByClassName('.mensagem')
+    //  Seletor > querySelector('') ou querySelectorAll('')
+
+        var seletor = window.document.querySelector('div.msg')
+        seletor.style.backgroundColor = "#abffa0"
+        seletor.innerText = 'querySelector("div.msg")'
+
+    </script> <!-- FIM DO JAVASCRIPT -->
+</body>
+</html>
