@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de multas</title>
+
+    <style>
+        body{
+            font: normal 10pt Arial;
+            background-color: #dfedff;
+            margin: 0;
+            padding: 0;
+            color: #dfedff;
+            
+        }
+        .container{
+            text-align: center;
+            background-image: url("https://i.pinimg.com/originals/f1/87/c7/f187c7a72ef365442628b4ab854bd181.jpg");
+            width: 60%;
+            height: 300px;
+            margin: 20% auto;
+            color: white;
+        }
+        p{
+            background-color: tomato;
+        }
+        h1{
+            padding-top: 10%;
+            color: #dfedff;
+           
+        }
+        input{
+            color: #dfedff;
+            background-color: transparent;
+            border: 1px solid #dfedff;
+            padding: .5em;
+        }
+        input[type=button]:hover{
+            background-color: #dfedff;
+            cursor: pointer;
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>SISTEMA DE MULTAS</h1>
+        <p>Velocidade do carro (km/H)</p>
+        <input type="number">
+        <input id="btn" type="button" name="btn" value="VERIFICAR">
+    </div>
+
+    <script>
+        
+        var btn = document.querySelector('input#btn') // document.getElementsByName('btn')[0]
+        btn.addEventListener('click', calcular)
+
+        var str_velocidade = window.document.querySelector('input');
+
+        function calcular(){
+            var qtd_velocidade = Number(str_velocidade.value)
+            if(qtd_velocidade > 60){
+                btn.style.backgroundColor = "yellow"
+                btn.style.color = "red"
+                btn.style.border = "1px solid yellow"
+                btn.value = "MULTADO!"
+            }else{
+                alert(`Velocidade: ${qtd_velocidade} km/h
+você não foi multado, dirija com cuidado!`)
+            }    
+        }
+
+        
+
+    </script>
+</body>
+</html>
