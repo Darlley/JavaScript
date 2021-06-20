@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de multas</title>
+
+    <style>
+        body{
+            font: normal 10pt Arial;
+            background-color: #dfedff;
+            margin: 0;
+            padding: 0;
+            color: #006eff;
+            
+        }
+        .container{
+            text-align: center;
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png");
+            width: 60%;
+            height: 300px;
+            margin: 20% auto;
+            color: #006eff;
+        }
+        p{
+            background-color: #006eff;
+            color: white;
+            padding: 10px;
+        }
+        h1{
+            padding-top: 10%;
+            color: #dfedff;
+            
+           
+        }
+        input{
+            color: #ffffff;
+            background-color: transparent;
+            border: 1px solid #dfedff;
+            padding: .5em;
+        }
+        input[type=button]:hover{
+            background-color: #fff700;
+            cursor: pointer;
+            color: #006eff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>SISTEMA DE NACIONALIDADE</h1>
+        <input type="text" name="valor" value="">
+        <input id="btn" type="button" name="btn" value="VERIFICAR">
+        <p class="nome"></p>
+    </div>
+
+    <script>
+        var btn = window.document.querySelector('input#btn')
+        btn.addEventListener('click', verificar)
+
+        var valor = document.querySelector("input").value // document.getElementsByName("valor") | document.getElementsByTagName("input")
+        valor = String(valor.toUpperCase())
+
+        var resultado = document.getElementsByClassName('nome')[0]
+        
+        function verificar(){
+
+            if (valor === 'BRASILEIRO') {
+                resultado.innerText = "Você é brasileiro, força!"
+            } else if (valor === 'BRASIL'){
+                resultado.innerText = "Você é brasileiro, força!"
+            } else {
+                resultado.innerText = "Você é estrageiro!"
+            } 
+            console.log('DEU PAU, NÃO QUER OBEDECER, CÓDIGO INSUBORDINADO!!!!!!!!!')
+        }
+    </script>
+</body>
+</html>
