@@ -1,0 +1,69 @@
+body{
+    background-color: #5096ff;
+    color: #ffffff;
+    font-family: system-ui;
+}
+header{
+    text-align: center;
+}
+
+section{
+    background-color: #ffffffe0;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 10px;
+    color: #000000;
+    box-shadow: 10px 10px 12px #00000080;
+    padding: 1.5em;
+    
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    padding: 6px 12px;
+    color: #5096ff;
+    border: 1px solid #5096ff;
+}
+.btn input:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #5096ff;
+}
+#resultado img{
+    width: 200px;
+    margin-left: 25%;
+}
+#mensagem{
+    color: rgb(206, 2, 2);
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* ESTILO DO CURSO
+
+body{
+    background-color: #9dcfff;
+}
+header{
+    color: #ffffff;
+    text-align: center;
+}
+section{
+    border-radius: 10px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 3px 6px 7px 3px #0000003a;
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+} */
