@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>VERIFICANDO IDADE</h1>
+    </header>
+
+    <section onload="calcular()">
+        <div id="resultado">
+            Ano de nascimento <input id="idade" type="number">
+            <div class="formulario">  Sexo
+                <input id="masculino" type="radio" name="genero" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input id="feminino" type="radio" name="genero" value="feminino">
+                <label for="feminino">Feminino</label>
+                <br>
+                <input id="btn_form" type="button" value="Verificar">
+                <br>
+                <img class="imagem" src="imagens/icon.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 body{
-    background-color: #5564ff;
+    background-color: #ff7575;
     color: #ffffff;
     font-family: system-ui;
 }
@@ -7,7 +7,7 @@ header{
     text-align: center;
 }
 section{
-    background-color: #ffffff13;
+    background-color: rgba(0, 0, 0, 0.178);
     width: 400px;
     margin: auto;
     border-radius: 10px;
@@ -15,28 +15,27 @@ section{
     padding: 10px;
     color: #7b7b7b;
     box-shadow: 10px 10px 12px #00000080;
-    text-align: center;
     padding: 1.5em;
+    text-align: center;
 }
 #resultado {
-    background-color: #ffffff;
-    width: 250px;
+    background-color: aliceblue;
+    width: 300px;
     margin: auto;
     padding: .5em;
 }
-#imagem{
-    padding: 1em;
+input[type='number']{
+    width: 80px;
 }
-#imagem img{
-    width: 262px;
+input[type="button"]{
+    padding: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imagem{
+    width: 250px;
     border-radius: 50%;
 }
-#imagem img:hover{
-    border-radius: 0;
-    cursor: zoom-out;
-    box-shadow: 0px 0px 0px 2px #fff; /*borda interna*/
-}
-
 footer{
     text-align: center;
     font-style: italic;
