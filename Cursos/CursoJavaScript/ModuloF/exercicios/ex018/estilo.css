@@ -1,0 +1,73 @@
+body{
+    background: #5454f5;
+    color: #ffffff;
+    font-family: system-ui;
+    height: 100%
+}
+header{
+    text-align: center;
+}
+
+section{
+    background-color: #ffffff;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 10px;
+    color: #000000;
+    box-shadow: 10px 10px 12px #00000080;
+    padding: 1.5em;
+    margin: auto;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+}
+input[type="number"]{
+    width: 30%;
+}
+input[type="button"]{
+    width: 25%;
+    border: 2px solid #5454f5;
+    background-color: #fff;
+}
+input[type="button"]:hover{
+    background-color: #5454f5;
+    cursor: pointer;
+    color: #fff;
+}
+#mensagem{
+    color: #ffffff;
+    background-color: #ff0000;
+}
+#resultado{
+    color: #646464;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* ESTILO DO CURSO
+
+body{
+    background-color: #9dcfff;
+}
+header{
+    color: #ffffff;
+    text-align: center;
+}
+section{
+    border-radius: 10px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 3px 6px 7px 3px #0000003a;
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+} */
