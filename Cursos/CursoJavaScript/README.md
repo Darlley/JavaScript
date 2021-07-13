@@ -3,7 +3,7 @@
 
 ## Perguntas
 
-### AULA #3
+AULA #3
 1. Quem criou o JS? Netscape 
 2. Java e JS tem relação? não
 3. O que é Ecma? é a padronização do JS
@@ -72,3 +72,27 @@ AULA #12
 2. como é uma condição js? 
     > if(boolean){true}else{false}
 3. o que são condições simples e compostas? quando tem ou não um else (ou "senão")
+    
+AULA #13
+1. Como mudar cor de fundo dinamicamente? adicionando uma condicional com intervalos de tempos da New Date().getHours() dentro do fluxo adicionar um document.style.background = "cor"
+2. como inserir uma tag imagem via JS? criar a TAG com createElement("img") e inserir o caminho da imagem com setAttribute('src', 'img png')
+3. treinou condições? sim. Condições Simples (if), composta (else if), aninhadas (if > if, else < else), multiplas (if, else if, else)
+
+AULA #14 
+1. como executar algo varias vezes? com estruturas de repetição
+2. como diferenciar estruturas de condição e repetição? a estrutura de condição executa a condição apenas uma vez enquanto a estrutura de repetição executar uma condição varias vezes enquanto ela for verdadeira
+3. qual a diferença das estruturas while e do...while? a primeira realiza um teste lógico antes de executar o bloco e a segunta executa o bloco e depois realiza o teste lógico
+
+AULA #15 
+1. while(true){ ... }  
+    > do{ ... }while(true) 
+    > for(var i=0; true; i++){ ... }
+2.  como manipular objetos de formulário? com algum seletor get ou query converter para Number() se for o caso e fazer o tratamento ou validação lógica
+3. sim
+4. não
+
+AULA #16 
+1. Conseguiu simplificar codigos com array? sim
+2. Como ordenar array? com o metodo sort()
+3. como disparar função ao clicar no botão? inline com o atributo onclick="nomeDaFuncao()" ou adicionando o evento dentro do arquivo javascript como addEventListener()
+4. quer aprender mais? sim

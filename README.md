@@ -3,6 +3,8 @@
 
 Resolução de exercícios em JavaScript de:
 
+[Exercicios](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoJavaScript) - [Curso Grátis de JavaScript e ECMAScript para Iniciantes](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+
 [Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) e [Site Animais Fantasticos](https://darlley.github.io/JavaScript/Cursos/JavaScriptCompletoES6/Parte5/aula02/) - [JavaScript Completo ES6](https://www.origamid.com/curso/javascript-completo-es6/)
 
 [Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScript%20Ninja) - [Curso JavaScript Ninja](https://www.udemy.com/curso-javascript-ninja/)
