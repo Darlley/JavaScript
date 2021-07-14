@@ -1,23 +1,22 @@
 # starting-JavaScript
 
 
-Resolução de exercícios em JavaScript de:
+Resolução de exercícios em JavaScript dos cursos:
 
-[Exercicios](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoJavaScript) - [Curso Grátis de JavaScript e ECMAScript para Iniciantes](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
-
-[Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) e [Site Animais Fantasticos](https://darlley.github.io/JavaScript/Cursos/JavaScriptCompletoES6/Parte5/aula02/) - [JavaScript Completo ES6](https://www.origamid.com/curso/javascript-completo-es6/)
-
-[Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScript%20Ninja) - [Curso JavaScript Ninja](https://www.udemy.com/curso-javascript-ninja/)
-
-[Exercícios](https://github.com/Darlley/JavaScript/tree/master/Cursos/Logica%20de%20Programaco%20com%20JavaScript) - [Lógica de Programação com JavaScript](https://www.udemy.com/logica-de-programacao-com-javascript-iniciando-no-frontend/)
+1. [Lógica de Programação com JavaScript](https://github.com/Darlley/JavaScript/tree/master/Cursos/Logica%20de%20Programaco%20com%20JavaScript)
+2. [Curso Grátis de JavaScript e ECMAScript para Iniciantes](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoJavaScript)
+3. [JavaScript Completo ES6](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) - [Site Animais Fantasticos](https://darlley.github.io/JavaScript/Cursos/JavaScriptCompletoES6/Parte5/aula02/)
+4. [Curso JavaScript Ninja](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScript%20Ninja)
+5. [Curso Web Moderno Completo com JavaScript 2021 + Projetos](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoWebModerno-2021)
 
 
-CERTIFICAÇÃO
+### CERTIFICAÇÕES
 -
 ![Udemy](https://udemy-certificate.s3.amazonaws.com/image/UC-E0S674B2.jpg)
 
-[LIVROS](https://github.com/Darlley/ExerciciosLivros) -lendo
+### LEITURA
 -
+[lendo](https://github.com/Darlley/ExerciciosLivros)
 
 ![Dominando Javascrip com jQuery](https://cache.skoob.com.br/local/images//nSVt_Gzl_18ggwelMsjKeQWN5pw=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/335825/DOMINANDO_JAVASCRIPT_COM_JQUERY_1374552700B.jpg)
 ![Eloquente](https://cache.skoob.com.br/local/images//U9MucrX1K6Njyna1k_abU-CmRfg=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/200449/ELOQUENT_JAVASCRIPT_1529941685200449SK1529941686B.jpg) 

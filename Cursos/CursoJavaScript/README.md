@@ -1,3 +1,5 @@
+[Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
+
 ![Curso de JavaScript e EcmaScript do Curso em Vídeo](https://i.ytimg.com/vi/BXqUH86F-kA/maxresdefault.jpg)
 
 
