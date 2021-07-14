@@ -11,11 +11,13 @@ Resolução de exercícios em JavaScript dos cursos:
 
 
 ### CERTIFICAÇÕES
--
+
+
 ![Udemy](https://udemy-certificate.s3.amazonaws.com/image/UC-E0S674B2.jpg)
 
 ### LEITURA
--
+
+
 [lendo](https://github.com/Darlley/ExerciciosLivros)
 
 ![Dominando Javascrip com jQuery](https://cache.skoob.com.br/local/images//nSVt_Gzl_18ggwelMsjKeQWN5pw=/200x/center/top/smart/filters:format(jpeg)/https://skoob.s3.amazonaws.com/livros/335825/DOMINANDO_JAVASCRIPT_COM_JQUERY_1374552700B.jpg)
