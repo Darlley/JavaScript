@@ -1,5 +1,5 @@
 /* 
- * AULA 18 - ORGANIZAÇÃO
+ * AULA 18 (34) - ORGANIZAÇÃO BÁSICA DE UM CÓDIGO
  * -----------------------------------------
  */ 
 {
@@ -17,7 +17,7 @@
 }
 
 /* 
- * AULA 19 - EXECUTANDO JAVASCRIPT
+ * AULA 19 (35) - EXECUTANDO JAVASCRIPT
  * -----------------------------------------
  */ 
 {
@@ -30,7 +30,7 @@
 }
 
 /*
- * AULA 20 - COMENTÁRIOS DE CÓDIGO
+ * AULA 20 (36) - COMENTÁRIOS DE CÓDIGO
  * -----------------------------------------
  */ 
 {
@@ -52,7 +52,7 @@
 }
 
 /*
- * AULA 21 - O BÁSICO DE VAR, LET E CONST
+ * AULA 21 (37) - O BÁSICO DE VAR, LET E CONST
  * -----------------------------------------
  */ 
 {
@@ -76,7 +76,7 @@
 }
 
 /*
- * AULA 22 - TIPAGEM FRACA
+ * AULA 22 (38) - TIPAGEM FRACA
  * -----------------------------------------
  */ 
 {
@@ -92,7 +92,7 @@
 }
 
 /*
- * AULA 22 - TIPOS EM JAVASCRIPT: NUMBER
+ * AULA 22 (39) - TIPOS EM JAVASCRIPT: NUMBER
  * -----------------------------------------
  */ 
 {
@@ -113,7 +113,7 @@
 }
 
 /*
- * AULA 23 - NUMBER: ALGUNS CUIDADOS
+ * AULA 23 (40) - NUMBER: ALGUNS CUIDADOS
  * -----------------------------------------
  */ 
 {
@@ -126,6 +126,58 @@
 }
 
 /*
- * AULA 24 - USANDO MATH
+ * AULA 24 (41) - USANDO MATH
  * -----------------------------------------
  */ 
+{
+    // JavaScript tem clásses como Math para calculos matemáticos
+    const raio = 5.6
+    const area = Math.PI + Math.pow(raio, 2)
+    // Math.PI é uma constante do número PI
+    // Math.pow é um método para exponenciação/potenciação raio^2
+
+    console.log(`Total: ${area} - "Math" é um ${typeof Math}`)
+}
+
+/*
+ * AULA 42 - TIPOS EM JAVASCRIP: STRING
+ * -----------------------------------------
+ */ 
+{
+    // String é uma cadeia de caracteres delimitadas por: 
+    // - "aspas duplas"
+    // - 'aspas simples'
+    // - ` crase` (Template String - executa trechos de códigos com ${})
+    let index = 4
+    let letra = '3'
+    const escola = "Cod3r"
+    console.log(`A String no index ${index} da palavra ${escola} é a letra: ${escola.charAt(index)}`)
+    console.log(`O código da tabela unicode da string "${escola.charAt(index)}" é: ${escola.charCodeAt(3)}` )
+    console.log(`O index da String "${letra}" na palavra "${escola}" é: ${escola.indexOf(letra)}`)
+
+    // String a partir do index 1 - do index 0 ao 3
+    console.log(`Strings a partir index 1-(${escola.substring(1)}) e entre 0-3-(${escola.substring(0, 3)})`) 
+
+    const concatena = 'Escola '.concat(escola).concat("!") // concatenção de literais com variaveis
+    // Literal são valores que não estão armazenados em uma variável
+    console.log(concatena, typeof concatena) 
+
+    console.log(`Substitua a string "3" por "e": ${escola.replace(3, 'e')}`)
+    const geraArray = 'Ana, Maria, Pedro'.split(', ')
+    console.log(typeof geraArray, geraArray)
+}
+
+/*
+ * AULA 43 - USANDO TEMPLATE STRING
+ * -----------------------------------------
+ */ 
+{
+    // As concatenações de strings com + deixa o código estéticamente ilegivel
+    // A partior do EscmaScript 2015 foi adicionado o Template String ``
+    
+    // Template Strings permite a quebra de linhas e o uso e manipulação de variáveis, expressões e métodos entre ${}
+    // O código entre ${} é interpretado, isto é chamado de Interpolação
+    const nome = 'Cod3r'
+    console.log(`Curso: 
+${nome}`)
+}
