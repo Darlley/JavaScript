@@ -181,3 +181,124 @@
     console.log(`Curso: 
 ${nome}`)
 }
+
+/*
+ * AULA 44 - TIPOS EM JAVASCRIPT: BOOLEAN
+ * -----------------------------------------
+ */ 
+{
+    let isAtivo = false;
+    console.log(isAtivo)
+
+    isAtivo = true
+    console.log(isAtivo)
+
+    isAtivo = 0
+    console.log(!!isAtivo) // Negação da negação retorna o valor booleano original
+
+    console.log(`\nValores com valor booleano verdadeiro:
+num número (3 - ${!!3}),
+um número negativo (-1 - ${!!-1}),
+string com espaço (" " - ${!!" "}),
+array ([] - ${!![]},
+um objeto ({} - ${!!{}})),
+ininito (infinity - ${!!Infinity}) `);
+
+    console.log(`\nValores com valor booleano falso:
+o 0 (${!!0}),\numa string vazia ("" - ${!!""}),
+o null (${!!null}),
+o Not a Number(NaN - ${!!NaN}),
+o indefinido (undefined - ${!!undefined}) `)
+}
+
+/*
+ * AULA 45 - TIPOS EM JAVASCRIPT: ARRAY
+ * -----------------------------------------
+ */
+{
+    // Aray é heterogêneo (aceitas mais de um tipo primitivo) mas o ideal é um array para cada tipo
+    const valores = [7.7, 8.9, 6.3, 9.2]
+    console.log(`
+Arrays: posição 0 - ${valores[0]}, posição 3 - ${valores[3]}`)
+
+    valores[4] = 10 // Posição 4 não existia, agora existe e armazena o valor 10
+    console.log(`Novo array: ${valores}`)
+    console.log(valores.length) // Tamanho do array
+
+    valores.push({id: 3}, false, null, 'teste') // Metodo push adiciona novos elementos no fim do array
+    console.log(valores)
+    valores.pop() // exclui o ultimo elemento do array
+    delete valores[0] // exclui o elemento da posição indicada 
+    console.log(valores)
+    console.log(typeof valores) // Um array é do tipo object
+}
+
+/*
+ * AULA 46 - TIPOS EM JAVASCRIPT: OBJECT
+ * -----------------------------------------
+ */
+{
+    // Objeto javascript é diferente de um elemento Json (formato textual)
+    // Notação literal de objetos.
+    // Objeto vazio {}
+    
+    // 3 forma de criar propeidades dentro de objeto:
+    
+    // 1º - Os atributos podem ser criados dinamicamento:
+    const prod1 = {}
+    prod1.nome = 'Celular ultra Mega'
+    // O objeto JavaScript é uma coleção de chave-valor (nome do atributo ou identificador e o valor)
+    // você pode ter dentro de um objeto outros objetos
+    prod1.preco = 4998.90
+    
+    // 2º -pode criar com espaços entre ['']
+    prod1['Desconto Legal'] = 0.40 // Esta notação com espaços deve ser evitada
+    console.log(`Prod 1 ${typeof prod1} - `, prod1)
+
+    // 3º - os atributos podem ser criadas na declaração
+    const prod2 = {
+        nome: 'Camisa Polo',
+        preco: 79.90
+    }
+    console.log(`Prod 2 ${typeof prod2} - `, prod2)
+}
+
+/*
+ * AULA 47 - ENTENDENDO O NULL & UNDEFINED
+ * -----------------------------------------
+ */
+{
+    // Atribuição por valor X atribuição por referência
+
+    // atribuição por referência:
+    const a = {nome: 'Teste'}; // a armazena o endereço onde o objeto esta localizado na memória
+    const b = a; // b armazena o mesmo endereço que a armazena
+    // se eu mudar b, a também muda por que o que mudou foi o endereço em que os dois estão apontando
+    b.nome = 'Teste 2'
+    console.log(`a - `, a, `b - `, b)
+
+    // atribuição por valor
+    let c = 3 // valores primitivos são armazenas como uma cópia na variável e neste caso cada variavel armazena uma copia diferente
+    let d = c
+    d++
+    console.log(`c - `,c, `d - `,d)
+
+    // NULL *referência
+    let valor // não há nenhum valor definido seu valor padrão é undefined
+    console.log(valor)
+    valor = null // significa ausência de valor, não há nenhum valor primitivo e nem uma referência de valor
+    // a variavel com null passou de:
+    // não inicializada -> inicializada
+    console.log(valor)
+    // console.log(valor.toString()) gera um erro
+    
+    // Sempre ao criar um variavel sem valor sempre inicialize ela com null, não é boa prática deixar variaveis undefined
+    const produto = {}
+    produto.preco = 3.50
+    // produto.preco = undefined
+    // nunca passe como valor o undefined, 
+    produto.preco = null // para zerar explicitamente uma variável passe o null para excluir a vriavel explicitamente utilize o delete produto.preco
+    console.log(!!produto.preco)
+    console.log(produto)
+
+}
