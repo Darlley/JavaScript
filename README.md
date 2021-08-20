@@ -14,6 +14,7 @@ Resolução de exercícios em JavaScript dos cursos:
 
 
 ![Udemy](https://udemy-certificate.s3.amazonaws.com/image/UC-E0S674B2.jpg)
+![Curso em Vídeo](https://darlley.github.io/images/conhecimentos/certificacao-guanabara-javascript.jpg)
 
 ### LEITURA
 
