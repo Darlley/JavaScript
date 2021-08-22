@@ -1,23 +1,18 @@
-# starting-JavaScript
-
 
 Resolução de exercícios em JavaScript dos cursos:
 
-1. [Lógica de Programação com JavaScript](https://github.com/Darlley/JavaScript/tree/master/Cursos/Logica%20de%20Programaco%20com%20JavaScript)
+1. [Lógica de Programação com JavaScript](https://github.com/Darlley/Serfrontend/tree/main/Logica-de-Programaco)
 2. [Curso Grátis de JavaScript e ECMAScript para Iniciantes](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoJavaScript)
 3. [JavaScript Completo ES6](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) - [Site Animais Fantasticos](https://darlley.github.io/JavaScript/Cursos/JavaScriptCompletoES6/Parte5/aula02/)
 4. [Curso JavaScript Ninja](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScript%20Ninja)
 5. [Curso Web Moderno Completo com JavaScript 2021 + Projetos](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoWebModerno-2021)
 
-
 ### CERTIFICAÇÕES
-
 
 ![Udemy](https://udemy-certificate.s3.amazonaws.com/image/UC-E0S674B2.jpg)
 ![Curso em Vídeo](https://darlley.github.io/images/conhecimentos/certificacao-guanabara-javascript.jpg)
 
 ### LEITURA
-
 
 [lendo](https://github.com/Darlley/ExerciciosLivros)
 
