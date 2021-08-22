@@ -1,3 +1,4 @@
+![JavaScript](https://user-images.githubusercontent.com/37590954/130371073-51f9c076-5a34-4951-979f-3c267ea401db.png)
 
 Resolução de exercícios em JavaScript dos cursos:
 
