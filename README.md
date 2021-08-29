@@ -1,4 +1,3 @@
-![JavaScript](https://user-images.githubusercontent.com/37590954/130371073-51f9c076-5a34-4951-979f-3c267ea401db.png)
 
 Resolução de exercícios em JavaScript dos cursos:
 
@@ -7,6 +6,13 @@ Resolução de exercícios em JavaScript dos cursos:
 3. [JavaScript Completo ES6](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScriptCompletoES6) - [Site Animais Fantasticos](https://darlley.github.io/JavaScript/Cursos/JavaScriptCompletoES6/Parte5/aula02/)
 4. [Curso JavaScript Ninja](https://github.com/Darlley/JavaScript/tree/master/Cursos/JavaScript%20Ninja)
 5. [Curso Web Moderno Completo com JavaScript 2021 + Projetos](https://github.com/Darlley/JavaScript/tree/master/Cursos/CursoWebModerno-2021)
+
+---
+
+1. [Marco Bruno](https://github.com/Darlley/CollabCode/tree/main/matching-game)
+1. [Fernando Daciuk](https://github.com/Darlley/Bootcamp-React)
+1. [Rocketseat](https://github.com/Darlley/Rocketseat)
+1. [O irmão mais velho](https://github.com/Darlley/Irmaomaisvelho/tree/main/modulo3-javascript)
 
 ### CERTIFICAÇÕES
 
